@@ -7,6 +7,8 @@ demand_forecasting_with_ml
 git clone https://github.com/unerue/ml-system-design.git
 ```
 # step2) 해당폴더로 이동
-![image](https://github.com/creepereye1204/demand_forecasting_with_ml-stage0/assets/112455232/53cfde7d-f4b7-414c-893c-4b310c0d28d1)
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
 
 #step3) 
