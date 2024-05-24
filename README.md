@@ -41,3 +41,7 @@ $(shell pwd): pwd 명령을 쉘에서 실행하고, 그 결과를 반환한다. 
 FROM ${FROM_IMAGE}을 
 FROM --platform=linux/amd64 ${FROM_IMAGE}
 로 바꾸어준다.
+
+# step7) ERROR: failed to solve: operating system is not supported 가 떠서
+![image](https://github.com/creepereye1204/demand_forecasting_with_ml-stage0/assets/112455232/1d50fb8b-2e40-473d-84f9-d2ba4db199fe)
+을 사용했다.
