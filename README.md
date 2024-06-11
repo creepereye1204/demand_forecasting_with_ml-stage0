@@ -37,7 +37,7 @@ $(shell pwd): pwd 명령을 쉘에서 실행하고, 그 결과를 반환한다. 
 ** 왜인지는 모르나 오류가 나니 직접 절대 경로를 적었습니다. **
 
 # step6) Dockerfile에서 수정할것
-현재 필자는 64bit 컴퓨터를 사용중임으로
+현재 64bit 컴퓨터를 사용중임으로
 FROM ${FROM_IMAGE}을 
 FROM --platform=linux/amd64 ${FROM_IMAGE}
 로 바꾸어준다.
